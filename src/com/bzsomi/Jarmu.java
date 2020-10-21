@@ -1,6 +1,6 @@
 package com.bzsomi;
 
-public abstract class Jarmu{
+public abstract class Jarmu implements KisGepjarmu{
     private String rendszam;
     protected int sebesseg;
 

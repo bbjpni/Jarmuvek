@@ -12,6 +12,9 @@ public class Audi58 extends Jarmu{
     public boolean gyorshajtottE(int sebessegkorlat) { return this.sebesseg>sebessegkorlat; }
 
     @Override
+    public boolean haladhatItt(int sebesseg) { return this.sebesseg > sebesseg; }
+
+    @Override
     public String toString() {
         return String.format("Audi: %s",super.toString());
     }
