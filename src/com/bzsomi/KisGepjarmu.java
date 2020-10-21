@@ -2,5 +2,5 @@ package com.bzsomi;
 
 public interface KisGepjarmu {
 
-    private boolean haladhatItt(int sebesseg);
+    public boolean haladhatItt(int sebesseg);
 }

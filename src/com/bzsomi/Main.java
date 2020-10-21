@@ -3,6 +3,7 @@ package com.bzsomi;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	Robogo fekete = new Robogo("aaa-000",200,300);
+        System.out.println(fekete);
     }
 }

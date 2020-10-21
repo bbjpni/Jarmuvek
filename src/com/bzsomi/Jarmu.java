@@ -1,6 +1,6 @@
 package com.bzsomi;
 
-public abstract class Jarmu {
+public abstract class Jarmu{
     private String rendszam;
     protected int sebesseg;
 
@@ -9,7 +9,7 @@ public abstract class Jarmu {
         this.sebesseg = sebesseg;
     }
 
-    private boolean gyorshajtottE(int sebessegkorlat){ return this.sebesseg>sebessegkorlat; }
+    public abstract boolean gyorshajtottE(int sebessegkorlat);
 
     @Override
     public String toString() {
